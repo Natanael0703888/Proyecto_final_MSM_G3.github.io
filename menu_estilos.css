@@ -408,6 +408,8 @@ text-decoration: none;
   .img-plato-carta img{
     max-width: 100px;
     max-height: 75px;
+    object-fit: cover;
+    border-radius: 8px;
   }
   
   .title-plato-carta{
@@ -425,7 +427,7 @@ text-decoration: none;
     font-weight: bold;
 }
 section.wrap {
-    margin-top: 80px;  /* Puedes ajustar el valor según el espacio que desees */
+    margin-top: 120px;  /* Puedes ajustar el valor según el espacio que desees */
 }
 @media (max-width: 680px) {
     .column-2.carta {
@@ -444,4 +446,44 @@ section.wrap {
     font-size: 1.2rem; /* Hace el precio más prominente */
     }
 }
-  
+/* Mejoras para el menú */
+section.wrap {
+    margin-top: 120px;
+    padding: 0 1rem;
+}
+
+.wrap-title-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin: 2rem 0 1rem 0;
+    border-bottom: 3px solid #FFC300;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.img-plato-carta img {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+.title-plato-carta h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.title-plato-carta p {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+}
+
+.precio-plato-carta {
+    font-size: 1.2rem;
+    color: #FFC300;
+    font-weight: bold;
+}
